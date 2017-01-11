@@ -18,8 +18,7 @@ def main(argv):
             minmem = options["minmem"]
             maxmem = options["maxmem"]
             vcpus = options["vcpus"]
-# #    os.system('gnt-instance add --os-type {} --os-size {} --backend-parameters minmem={},maxmem={},vcpus={} --net=0:link={} {}'.format(ostype, disksize, minmem, maxmem, vcpus, network, instancename))
-    print('gnt-instance add --os-type {} --os-size {} --backend-parameters minmem={},maxmem={},vcpus={} --net=0:link={} {}'.format(ostype, disksize, minmem, maxmem, vcpus, network, instancename))
+    os.system('gnt-instance add --os-type {} --os-size {} --backend-parameters minmem={},maxmem={},vcpus={} --net=0:link={} {}'.format(ostype, disksize, minmem, maxmem, vcpus, network, instancename))
 
 if __name__ == "__main__":
     main(sys.argv)
