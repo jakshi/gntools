@@ -1,0 +1,10 @@
+instance-group:
+  instance-name:
+    network: brnetwork
+    ostype: debootstrap+ubuntu-xenial
+    disksize: 16g
+    minmem: 4g
+    maxmem: 4g
+    vcpus: 1
+    node-group: gpu
+    disk-template: plain
