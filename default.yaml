@@ -1,3 +1,4 @@
 default:
   disk-template: drbd
   node-group: default
+  virtualization: lxc

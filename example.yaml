@@ -8,3 +8,5 @@ instance-group:
     vcpus: 1
     node-group: gpu
     disk-template: plain
+    virtualization: kvm
+
