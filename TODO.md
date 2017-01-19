@@ -11,15 +11,15 @@
 * Re-factor: Switch to using ganeti API. https://github.com/MostAwesomeDude/gentleman can be used
 * Re-factor: Switch to using some CLI util library
 
-# 0.0.6
+# 0.0.7
 
 * Add: utils config
 
-# 0.0.5
+# 0.0.6
 
 * Add: config directory
 
-# v0.0.4
+# v0.0.5
 
 * Add: '-a' key to the util that will ask confirmation before proceed
 * Add: '-v' key to toggle will util print what it plan to do or not
