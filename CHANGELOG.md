@@ -1,3 +1,7 @@
+# 0.0.4
+
+Add: printing ganeti CLI command that will be used for instance creation
+
 # 0.0.3
 
 Fix: bug with python 2.x and python 3.x using different commands to read from standart input.
