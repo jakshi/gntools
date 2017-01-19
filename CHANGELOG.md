@@ -1,3 +1,7 @@
+# 0.0.3
+
+Fix: bug with python 2.x and python 3.x using different commands to read from standart input.
+
 # 0.0.2
 
 * Add: requirements.txt file
