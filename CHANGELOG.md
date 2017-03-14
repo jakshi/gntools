@@ -1,3 +1,7 @@
+# 0.0.5
+
+* Add: --no-install switch
+
 # 0.0.4
 
 Add: printing ganeti CLI command that will be used for instance creation

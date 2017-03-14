@@ -9,4 +9,4 @@ instance-group:
     node-group: gpu
     disk-template: plain
     virtualization: kvm
-
+    install: true
