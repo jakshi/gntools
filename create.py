@@ -50,7 +50,7 @@ def main(argv):
             node_group = options["node-group"]
             disk_template = options["disk-template"]
             virtualization = options["virtualization"]
-            install = option["install"]
+            install = options["install"]
             if virtualization == "kvm":
                 virtualization_switch = "-H kvm"
             else:
