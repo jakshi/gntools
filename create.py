@@ -55,7 +55,7 @@ def main(argv):
                 virtualization_switch = "-H kvm"
             else:
                 virtualization_switch = ""
-            if install == false:
+            if install == False:
                 install_switch = "--no-install"
             else:
                 install_switch = ""
