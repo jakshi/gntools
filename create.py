@@ -61,7 +61,7 @@ def main(argv):
                 install_switch = ""
 
         ganeti_command = 'gnt-instance add {} {} --os-type {} --os-size {} --backend-parameters minmem={},maxmem={},vcpus={} --net=0:link={} --disk-template {} --node-group {} {}'.format(virtualization_switch, install_switch, ostype, disksize, minmem, maxmem, vcpus, network, disk_template, node_group, instancename)
-        print('Instance name {} creation plan:\nVirtualization type: {}\nOS type: {}\nInstall OS? {}}\nNode Group: {}\nDisk type: {}\nCPUs: {}\nMaxMem: {}\nMinMem: {}\nRoot disk size: {}\nNetwork: {}'.format(name, virtualization, ostype, install, node_group, disk_template, vcpus, maxmem, minmem, disksize, network))
+        print('Instance name {} creation plan:\nVirtualization type: {}\nOS type: {}\nInstall OS? {}\nNode Group: {}\nDisk type: {}\nCPUs: {}\nMaxMem: {}\nMinMem: {}\nRoot disk size: {}\nNetwork: {}'.format(name, virtualization, ostype, install, node_group, disk_template, vcpus, maxmem, minmem, disksize, network))
         print('Ganeti commmand that will be executed:\n{}'.format(ganeti_command))
         if query_yes_no('Proceed?','no'):
             os.system(ganeti_command)
